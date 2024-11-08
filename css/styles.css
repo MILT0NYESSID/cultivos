@@ -1,0 +1,169 @@
+/* Resetear márgenes y padding predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #4CAF50; /* Color verde para el encabezado */
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 50px; /* Tamaño ajustable del logo */
+  height: auto;
+}
+
+/* Título en el encabezado */
+header h1 {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+/* Contenedor principal */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Información principal */
+.informacion-proyecto, .informacion-contactos {
+  width: 70%; /* Ocupa el 70% del ancho para el contenido */
+  padding-right: 20px;
+}
+
+.informacion-proyecto h2, .informacion-contactos h2 {
+  font-size: 28px;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+}
+
+.informacion-proyecto h3 {
+  font-size: 24px;
+  margin-top: 15px;
+  color: #333;
+}
+
+.informacion-proyecto p, .informacion-contactos p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Sección de navegación */
+.navegacion {
+  width: 25%; /* Ocupa el 25% del ancho para el menú */
+  padding: 20px;
+  background-color: #e9e9e9;
+  border-radius: 5px;
+}
+
+.navegacion nav h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.navegacion nav ul {
+  list-style-type: none;
+}
+
+.navegacion nav ul li {
+  margin-bottom: 10px;
+}
+
+.navegacion nav ul li a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 18px;
+}
+
+.navegacion nav ul li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Formulario de contacto */
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+form label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo de imágenes */
+.imagen-proyecto {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Enlaces dentro de las páginas */
+a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+  text-decoration: underline;
+}
